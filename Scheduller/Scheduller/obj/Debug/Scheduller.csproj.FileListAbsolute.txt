@@ -1,0 +1,10 @@
+C:\Users\Максим\Documents\Visual Studio 2012\Projects\Scheduller\Scheduller\bin\Debug\Scheduller.exe.config
+C:\Users\Максим\Documents\Visual Studio 2012\Projects\Scheduller\Scheduller\bin\Debug\Scheduller.exe
+C:\Users\Максим\Documents\Visual Studio 2012\Projects\Scheduller\Scheduller\bin\Debug\Scheduller.pdb
+C:\Users\Максим\Documents\Visual Studio 2012\Projects\Scheduller\Scheduller\obj\Debug\Scheduller.csprojResolveAssemblyReference.cache
+C:\Users\Максим\Documents\Visual Studio 2012\Projects\Scheduller\Scheduller\obj\Debug\Scheduller.Form1.resources
+C:\Users\Максим\Documents\Visual Studio 2012\Projects\Scheduller\Scheduller\obj\Debug\Scheduller.Properties.Resources.resources
+C:\Users\Максим\Documents\Visual Studio 2012\Projects\Scheduller\Scheduller\obj\Debug\Scheduller.csproj.GenerateResource.Cache
+C:\Users\Максим\Documents\Visual Studio 2012\Projects\Scheduller\Scheduller\obj\Debug\Scheduller.exe
+C:\Users\Максим\Documents\Visual Studio 2012\Projects\Scheduller\Scheduller\obj\Debug\Scheduller.pdb
+C:\Users\Максим\Documents\Visual Studio 2012\Projects\Scheduller\Scheduller\obj\Debug\Scheduller.Add.resources
