@@ -1,0 +1,4 @@
+C:\Users\Максим\Documents\Visual Studio 2012\Projects\UnitTestProject1\UnitTestProject1\bin\Debug\UnitTestProject1.dll
+C:\Users\Максим\Documents\Visual Studio 2012\Projects\UnitTestProject1\UnitTestProject1\bin\Debug\UnitTestProject1.pdb
+C:\Users\Максим\Documents\Visual Studio 2012\Projects\UnitTestProject1\UnitTestProject1\obj\Debug\UnitTestProject1.dll
+C:\Users\Максим\Documents\Visual Studio 2012\Projects\UnitTestProject1\UnitTestProject1\obj\Debug\UnitTestProject1.pdb
