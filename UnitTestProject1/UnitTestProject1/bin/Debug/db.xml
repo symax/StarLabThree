@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ArrayOfSchedul xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Schedul>
-    <date>2014-05-06T18:54:08.5653434+07:00</date>
-    <time>18:54</time>
+    <date>2014-05-06T18:55:36.0865138+07:00</date>
+    <time>18:55</time>
     <file>random.exe</file>
     <isStarted>false</isStarted>
   </Schedul>
   <Schedul>
-    <date>2014-05-06T18:54:08.5653434+07:00</date>
-    <time>18:54</time>
+    <date>2014-05-06T18:55:36.0865138+07:00</date>
+    <time>18:55</time>
     <file>Timer.exe</file>
     <isStarted>false</isStarted>
   </Schedul>
   <Schedul>
-    <date>2014-05-06T18:54:08.5653434+07:00</date>
-    <time>18:54</time>
+    <date>2014-05-06T18:55:36.0865138+07:00</date>
+    <time>18:55</time>
     <file>PatternCurs.exe</file>
     <isStarted>false</isStarted>
   </Schedul>
