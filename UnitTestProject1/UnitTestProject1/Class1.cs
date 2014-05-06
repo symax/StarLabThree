@@ -7,6 +7,9 @@ using System.Windows.Forms;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml;
+using System.Xml.Serialization;
+using System.IO;
 
 namespace UnitTestProject1
 {
@@ -69,6 +72,16 @@ namespace UnitTestProject1
             public void addCompose(Composite com)
             {
                 this.c.AddRange(com.c);
+            }
+
+            public void Save()
+            {
+                FileStream fs = new FileStream("db.xml", FileMode.OpenOrCreate);
+                fs.Close();
+                XmlSerializer xs = new XmlSerializer(typeof(List<Schedul>));
+                StreamWriter file = new StreamWriter("db.xml");
+                xs.Serialize(file, this.getCompose());
+                file.Close();
             }
         }
 
