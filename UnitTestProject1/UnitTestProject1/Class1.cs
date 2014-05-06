@@ -83,6 +83,14 @@ namespace UnitTestProject1
                 xs.Serialize(file, this.getCompose());
                 file.Close();
             }
+
+            public void Open()
+            {
+                XmlSerializer r = new XmlSerializer(typeof(List<Schedul>));
+                TextReader tr = new StreamReader("db.xml");
+                c = (List<Schedul>)r.Deserialize(tr);
+                tr.Close();
+            }
         }
 
         public interface Iterator

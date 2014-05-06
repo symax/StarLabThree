@@ -69,7 +69,7 @@ namespace UnitTestProject1
         }
 
         [TestMethod]
-        public void TestMethod3()
+        public void TestMethod4()
         {
             List<Schedul> idealList = new List<Schedul>();
             Composite com = new Composite();
@@ -80,16 +80,10 @@ namespace UnitTestProject1
             idealList.Add(new Schedul(DateTime.Now, DateTime.Now.ToString("HH:mm"), "Timer.exe"));
             idealList.Add(new Schedul(DateTime.Now, DateTime.Now.ToString("HH:mm"), "PatternCurs.exe"));
             com.Save();
-
-            FileStream fs = new FileStream("ideal.xml", FileMode.OpenOrCreate);
-            fs.Close();
-            XmlSerializer xs = new XmlSerializer(typeof(List<Schedul>));
-            StreamWriter file = new StreamWriter("ideal.xml");
-            xs.Serialize(file, idealList);
-            file.Close();
-
             com = new Composite();
-
+            com.Open();
+            ConcreteIterator ci = new ConcreteIterator(com);
+            Assert.AreEqual(true, ci.EqualSchedul(idealList));
         }
     }
 }
