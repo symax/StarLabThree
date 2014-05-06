@@ -119,11 +119,12 @@ namespace UnitTestProject1
             {
                 bool IsEqual = true;
                 Schedul s = new Schedul();
-                foreach(Schedul sch in SL)
+                foreach (Schedul sch in SL)
                     if (this.hasNext())
                     {
                         s = this.next();
-                        if (s != sch)
+                        if (s.file.CompareTo(sch.file) != 0 || s.isStarted != sch.isStarted || s.time.CompareTo(sch.time) != 0
+                            || s.date.Date != sch.date.Date)
                         {
                             IsEqual = false;
                             break;
