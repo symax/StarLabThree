@@ -61,11 +61,15 @@ namespace UnitTestProject1
             xs.Serialize(file, idealList);
             file.Close();
             //как сравнить 2 полученные xml?
+            FileStream idealStream = new FileStream("ideal.xml", FileMode.Open);
+            FileStream searchStream = new FileStream("db.xml", FileMode.Open);
             //StreamReader idealSr = new StreamReader("ideal.xml");
             //StreamReader testSr = new StreamReader("db.xml");
-            //Assert.AreEqual(idealSr, testSr);
-            ConcreteIterator ci = new ConcreteIterator(com);
-            Assert.AreEqual(true, ci.EqualSchedul(idealList));
+            Assert.AreEqual(idealStream.Length, searchStream.Length);
+            idealStream.Close();
+            searchStream.Close();
+            //ConcreteIterator ci = new ConcreteIterator(com);
+            //Assert.AreEqual(true, ci.EqualSchedul(idealList));
         }
 
         [TestMethod]
